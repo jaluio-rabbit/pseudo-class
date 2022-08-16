@@ -7,7 +7,7 @@ window.addEventListener('mousemove', () => {
     if (i <= 2){
         setTimeout(() => {
             sound.play();
-        }, 1000);
+        }, 500);
         console.log('you focused on the window.')
     }
     i++
